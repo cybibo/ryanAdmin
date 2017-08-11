@@ -1,0 +1,386 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>RYANADMIN  Admin Template by RyanDesigns Documentation</title>
+
+<link rel="stylesheet" media="screen" href="../css/reset.css" />
+<link rel="stylesheet" media="screen" href="../css/style.css" />
+<link rel="stylesheet" media="screen" href="../css/messages.css" />
+<link rel="stylesheet" media="screen" href="../css/forms.css" />
+<link rel="stylesheet" media="screen" href="../css/tables.css" />
+<style type="text/css">
+.html_code {
+	background-color:#CEDCEC;
+	border:1px solid #000000;
+	color:#000000;
+	font:12px Verdana,Arial,Helvetica,sans-serif;
+	padding:4px;
+	text-align:left;
+
+	padding-left: 20px;
+}
+</style>
+
+</head>
+<body>
+    <div id="wrapper">
+        <header id="page-header">
+            <div class="wrapper">
+                <h1>RYANADMIN Documentation</h1>
+                <span>Designed by: <a href="http://themeforest.net/user/RyanDesigns" style="color:#FFFFFF">RyanDesigns</a></span><br/>
+                <span>Template version: 1.6</span><br/>
+                <span>Date Created: November 15, 2010</span><br/>
+                <span>Last Update: Feb 24, 2011</span>
+            </div>
+        </header>
+        
+        <section id="content">
+            <div class="wrapper">
+	
+                <!-- Main Section -->
+
+                <section class="grid_6 first">
+					<h4>RYANADMIN is a complete control panel template. It includes all the necessary styling for a content management system such as graphs, media, pricing tables and progress bar.</h4>
+                    
+                    <p>It's ideal for content management systems, website backends or as a stand alone skin for a web application.</p>
+                    
+                    <h4>Table of Contents</h4>
+                    <ul>
+                    	<li>HTML Structure</li>
+                    	<li>CSS Files and Structure</li>
+                    	<li>Javascript</li>
+                    	<li>Sources and credits</li>
+                    </ul>
+                    <br/>
+                    <div class="columns leading">
+                        <div class="grid_6 first">
+                            <h4>HTML Structures</h4>
+                            <hr/>
+                            <div class="html_code">
+                            	<pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;!-- Header metatags --&gt;
+&lt;!-- Page Title --&gt;
+&lt;!-- Stylesheets --&gt;
+&lt;!-- jQuery with plugins --&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(document).ready(function(){
+
+	// On load javascripts
+
+});
+&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+	&lt;div id=&quot;wrapper&quot;&gt;
+		&lt;!-- Header --&gt;
+		&lt;header id=&quot;page-header&quot;&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;div id=&quot;util-nav&quot;&gt; &lt;/div&gt;
+				&lt;div id=&quot;main-nav&quot;&gt; &lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/header&gt;
+		&lt;!-- End of Header --&gt;
+		
+		&lt;!-- Page content --&gt;
+		&lt;section id="content"&gt;
+			&lt;div class=&quot;wrapper&quot;&gt;
+				&lt;!--  Left column/section --&gt;
+				&lt;section class=&quot;grid_6 first&quot;&gt;
+				&lt;/section&gt;
+			
+				&lt;!--  Right column/section --&gt;
+				&lt;aside class=&quot;grid_2&quot;&gt;
+				&lt;/aside&gt;
+				&lt;div class=&quot;clear&quot;&gt; &lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div id=&quot;push&quot;&gt; &lt;/div&gt;
+		&lt;/section&gt;
+		&lt;!-- End of Page content --&gt;
+	&lt;/div&gt;
+		
+	&lt;!-- Footer --&gt;
+	&lt;footer id=&quot;page-footer&quot;&gt; &lt;/footer&gt;
+	&lt;!-- End of Footer--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+							</pre>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="columns leading">
+                    	
+                        <div class="grid_6 first">
+                            <h4>CSS Files and Structure</h4>
+                            <hr />
+                           	<p>The css files used in this template are:</p>
+                            <ul>
+                                <li>style.css</li>
+                                <li>reset.css</li>
+                                <li>messages.css</li>
+                                <li>forms.css</li>
+                                <li>tables.css</li>
+                                <li>ie.css</li>
+                                <li>media.css</li>
+                                <li>pricing.css</li>
+                                <li>pricing-ie.css</li>
+                                <li>action-buttons.css</li>
+                            </ul>
+                            <p>These styling sheets are divided into sections for easier editing. If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited. </p>
+                            <br/>
+                            <h5 class="code">styles.css</h5>
+                            <p>This stylesheet contains specific stylings for the template structure. It includes the base styles, text styles, header and footer.</p>
+                            <p>This template uses a fixed width layout of 990px and is similar to many frameworks you can find on the Internet.</p>
+                            <div class="html_code"><pre>
+/**  
+* Header  
+*/
+  -------- codes here
+		
+/**  
+* Content  
+*/
+  ------ codes here
+		
+/**  
+* Footer  
+*/
+  ------ codes here
+
+etc...
+                            </pre></div>
+                            
+                            <br/>
+                            <h5 class="code">reset.css</h5>
+                            <p>This contains a generic reset rules for all browsers.</p>
+                            
+                            <br/>
+                            <h5 class="code">messages.css</h5>
+                            <p>This contains styling for the template messages such as info-message, error-message, success-message and warning messages</p>
+							<h5>Sample Usage:</h5>
+<div class="html_code"><pre>&lt;div class=&quot;message info&quot;&gt; This is your info message &lt;/div&gt;</pre></div>
+							<br/>
+							<div class="message info">This is your info message</div>
+							<br/>
+<div class="html_code"><pre>&lt;div class=&quot;message error&quot;&gt;
+	&lt;h3&gt;Error!&lt;/h3&gt;
+    &lt;p&gt;
+    	This is an error message.
+    &lt;/p&gt;
+&lt;/div&gt;</pre></div>
+							<br/>
+							<div class="message error">
+                                <h3>Error!</h3>
+                                <p>
+                                    This is an error message.
+                                </p>
+                            </div>
+							
+							<br/>
+                            <h5 class="code">forms.css</h5>
+                            <p>Forms.css contains all the needed styling for the template's form such as styles for buttons, input , textarea, select, pagination, widgets, tabs, accordion and more.</p>
+                            <h5>Sample Usage:</h5>
+<div class="html_code"><pre>&lt;button class=&quot;button button-orange&quot;&gt; Button Text &lt;/button&gt;
+&lt;button class=&quot;button button-green&quot;&gt; Green Button &lt;/button&gt;</pre></div>
+                            <br/>
+                            <button class="button button-orange">Button Text</button>
+                            <button class="button button-green">Green Button</button>
+                            
+                            <br/><br/>
+                            <h5 class="code">tables.css</h5>
+                            <p>Tables.css contains all the necessary styling for the tables. (More Examples on tables.html)</p>
+                            <h5>Here are some example usages for the table.</h5>
+							<p><strong>Automatically enable pagination on a table</strong> <br/>
+								To automatically paginate a table, add the <span class="code">paginate</span> class </p>
+<div class="html_code"><pre>&lt;table class=&quot;paginate&quot;&gt;
+&lt;/table&gt;</pre></div>
+							
+							<p><strong>Manually enable pagination on a table</strong></p>
+<div class="html_code"><pre> &lt;table class=&quot;mytableclass&quot;&gt;
+&lt;/table&gt;</pre></div>
+							<p>Add the following javascript</p>
+<div class="html_code"><pre> $(document).ready(function(){
+	$("table.mytableclass").paginate({rows: 10, buttonClass: 'button-blue'});
+}); </pre></div>			
+							<br/><span class="code">rows: </span>The number of rows to show per page
+							<br/><span class="code">buttonClass:</span> button-gray, button-blue, button-green, button-orange
+
+							<p><strong>Automatically enable sorting on a table</strong><br/>
+							To automatically allow column sorting on a table, add the sortable class </p>
+<div class="html_code"><pre>&lt;table class=&quot;sortable&quot;&gt;
+&lt;/table&gt;</pre> </div>
+							<p><strong>Manually enable sorting on a table</strong></p>
+<div class="html_code"><pre>&lt;table class=&quot;mytableclass&quot;&gt;
+&lt;/table&gt;</pre> </div>
+							<p>Add the following javascript</p>
+<div class="html_code"><pre>$(document).ready(function(){
+	$("table.mytableclass").tablesort();
+});</pre></div>
+							<br/>
+                            <h5 class="code">ie.css</h5>
+                            <p>This includes Internet Explorer css fixes.</p>
+							<br/>
+                            <h5 class="code">media.css</h5>
+                            <p>This stylesheet is used in the media browser. It is use to add custom scrolls to product catalogs, images and other navigational systems.</p>
+                            <h5>To enable scrollable of images, add the scrollable class</h5>
+<div class="html_code"><pre>&lt;div class=&quot;scrollable&quot;&gt;
+&lt;/div&gt;</pre> </div>
+                         	<p>Add the following javascript</p>
+<div class="html_code"><pre>$(document).ready(function(){
+	$(".scrollable").scrollable();
+});</pre></div>
+							<p>It also contains the styling for the filtering and sorting of the images.</p>
+                            <br/>
+                            <h5 class="code">pricing.css</h5>
+                            <p>This contains styling for the pricing tables. See examples on pricing.html</p>
+							<br/>
+                            <h5 class="code">pricing-ie.css</h5>
+                            <p>Contains Internet Explorer fixes for the pricing tables.</p>
+                            <h5 class="code">action-buttons.css</h5>
+                            <p>Contains the styles for action buttons like add, edit, delete etc.</p>
+                        </div>
+                    </div>
+
+                    <div class="columns leading">
+                        <div class="grid_6 first">
+                            <h4>Javascript</h4>
+                            <hr />
+                            <p>This template uses the following javascript files:</p>
+                            <ul>
+                                <li>global.js</li>
+                                <li>html5.js</li>
+                                <li>ie.js</li>
+                                <li>jquery.animate-shadow-min.js</li>
+                                <li>jquery.tables.js</li>
+                                <li>jquery.tools.min.js</li>
+                                <li>pricing.js</li>
+                                <li>selectivizr.js</li>
+                                <li>jquery.easing.1.3.js</li>
+                                <li>jquery.quicksand.js</li>
+                            </ul>
+                            <br/><h5 class="code">global.js</h5>
+                            <p>This include all the necessary scripts needed for all the pages.</p>
+                            <br/><h5 class="code">html5.js</h5>
+                            <p>This supports all the newly html tags used in this template. It is a way for browsers to acknowledge the new elements such as <span class="code">&lt;article&gt;</span>,<span class="code">&lt;section&gt;</span>, etc.</p> 
+                            <br/><h5 class="code">ie.js</h5>
+                            <p>It is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. It fixes many HTML and CSS issues such as <span class="code">mousedown</span>,<span class="code">mouseup</span> and <span class="code">mouseout</span>. </p>
+                            <br/><h5 class="code">jquery.animate-shadow-min.js</h5>
+                            <p>With this jQuery plugin, you can extend the animate function to support the CSS box shadow-property. You can animate the color, the x- and y-offset, the blur-radius and spread-radius. Mark Carver contributed code to support the alpha channel.</p>
+                            <br/><h5 class="code">jquery.tables.js</h5>
+                            <p>Tablesorter is a jQuery plugin for turning a standard HTML table with THEAD and TBODY tags into a sortable table without page refreshes. tablesorter can successfully parse and sort many types of data including linked data in a cell. It has many useful features including: </p>
+   							<ul>
+   								<li>Multi-column sorting</li>
+   								<li>Parsers for sorting text, URIs, integers, currency, floats, IP addresses, dates (ISO, long and short formats), time. Add your own easily</li>
+   								<li>Support secondary "hidden" sorting (e.g., maintain alphabetical sort when sorting on other criteria)</li>
+   								<li>Extensibility via widget system</li>
+   								<li>Cross-browser: IE 6.0+, FF 2+, Safari 2.0+, Opera 9.0+</li>
+   								<li>Small code size</li>
+   							</ul>
+                            <br/><h5 class="code">jquery.tools.min.js</h5>
+                            <p>jQuery Tools is a collection of the most important user interface components for the web. These are tabs, accordions, tooltips, overlays, exposing effects and scrollables. It is minimized and/or packed to reduce the size of the files.</p>
+                            <br/><h5 class="code">pricing.js</h5>
+                            <p>This is a Javascript used in pricing table. More example on pricing.html</p>
+                            <br/><h5 class="code">selectivizr.js</h5>
+                            <p>selectivizr is a JavaScript utility that emulates CSS3 pseudo-classes and attribute selectors in Internet Explorer 6-8.</p>
+							<br/><h5 class="code">jquery.easing.1.3.js</h5>
+                            <p>A JQuery extension that allows you to set custom easing types for standard animations. To learn more about jquery.easing, click <a href="http://plugins.jquery.com/project/Easing" target="_blank"> here </a></p>
+                            <br/><h5 class="code">jquery.quicksand.js</h5>
+                            <p>Quicksand is a very functional jQuery plugin for reordering and/or filtering items with a nice shuffling animation.</p>
+							<p>It simply replaces a collection of items with another & only requires the sets to be provided which can be done in multiple ways:</p>
+							<ul>
+   								<li>using plain HTML, like an unordered list</li>
+							    <li>downloading data by an Ajax call</li>
+							    <li>transforming HTML items by JavaScript</li>
+							</ul>
+							<p>To use quicksand, simply add this jquery script:</p>
+							<div class="html_code">$(&quot;#source&quot;).quicksand($sorted_data, $preferences);
+&lt;/div&gt;</pre> </div>
+							<b>where in:</b><br/>
+							<span>source - list of the objects</span><br/>
+							<span>sorted-data - new list of the objects after sorted and filtered</span><br/>
+							<span>preferences - additional animation parameters such as easing of the animation and duration of the animation, </span><br/>
+							<p>For more demo on using quicksand, click <a href="http://razorjack.net/quicksand/docs-and-demos.html" target="_blanck" >here.</a></p>
+                        </div>
+                    </div>
+
+                    <div class="columns leading">
+                        <div class="grid_6 first">
+                            <h4>Sources and credits</h4>
+                            <hr />
+                            <p>The jQuery and its plugins are licensed under the MIT, GPL Version 2 or BSD licenses. You can read these licenses here:</p> 
+ 							<ul> 
+								<li><a href="http://www.opensource.org/licenses/mit-license.php">http://www.opensource.org/licenses/mit-license.php</a></li> 
+								<li><a href="http://www.opensource.org/licenses/gpl-license.php">http://www.opensource.org/licenses/gpl-license.php</a></li>
+							</ul>
+							<p>Images used for quicksand are licensed under the <a href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 License</a> and are free to use for commercial and personal use.</p> 
+ 							<ul> 
+								<li><a href="http://svengraph.deviantart.com/art/This-is-ART-Icons-155844990">http://svengraph.deviantart.com/art/This-is-ART-Icons-155844990</a> for art icons</li> 
+								<li><a href="http://www.littleboxofideas.com/blog/freebies/free-social-moleskin-icon-set-for-bloggers-and-designers">http://www.littleboxofideas.com/blog/freebies/free-social-moleskin-icon-set-for-bloggers-and-designers</a> for social icons</li>
+								<li><a href="http://speckyboy.com/2010/02/17/exclusive-payment-method-icon-set-for-our-readers/">http://speckyboy.com/2010/02/17/exclusive-payment-method-icon-set-for-our-readers/</a> for payment icons</li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="columns leading">
+                    	<div class="grid_6 first">
+                    		<hr/>
+                    		<p>Thank you for purchasing my template. 
+                    		If you have any questions not found on this documentation, please feel free to contact me via my user page contact. 
+                    		Thank you!</p>
+                    		<p><a href="http://themeforest.net/user/RyanDesigns">Vivant Designs</a></p>
+                    	</div>
+                    </div>
+                    <div class="clear">&nbsp;</div>
+                </section>
+
+                <!-- Main Section End -->
+
+                <!-- Sidebar -->
+
+                <aside class="grid_2">
+
+                    <div class="widget">
+
+                        <header>
+
+                            <h2>More about Jquery</h2>
+
+                        </header>
+
+                        <section>
+
+                            <dl>
+                                <dt>Animate shadow</dt>
+                                <dd><a href="http://www.bitstorm.org/jquery/shadow-animation/">More example</a></dd>
+								<br/>
+                                <dt>Table Sorter </dt>
+                                <dd><a href="http://tablesorter.com/docs/">Learn table sorter usage, limitations, and configurations</a></dd>
+								<br/>
+                                <dt>Selectivizr</dt>
+                                <dd><a href="http://selectivizr.com/">Learn more</a></dd>
+
+                            </dl>
+
+                        </section>
+
+                    </div>
+
+                </aside>
+
+                <!-- Sidebar End -->
+                
+                <div class="clear"></div>
+
+            </div>
+            <div id="push"></div>
+        </section>
+    </div>
+    
+    
+
+</body>
+</html>
